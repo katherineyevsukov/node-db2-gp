@@ -1,7 +1,9 @@
 const express = require('express');
+const db = require('../../data/db-config');
+
 // const knex = require('knex');
 
-// const db = knex({ //this shouldn't be here
+// const db = knex({ // <=========this shouldn't be here
 //   client: 'sqlite3',
 //   connection: {
 //     filename: './data/produce.db3'
